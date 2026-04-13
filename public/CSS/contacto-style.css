@@ -1,6 +1,4 @@
-﻿
-
-:root {
+﻿:root {
     --rojo-af: #d11212;
     --rojo-af-oscuro: #a10e0e;
     --azul-af: #003366;
@@ -16,7 +14,7 @@
 }
 
 .contacto-hero {
-    padding: 90px 24px 70px;
+    padding: 160px 24px 70px;
     text-align: center;
     color: var(--blanco);
     background: radial-gradient(circle at top left, #ff4a4a, var(--rojo-af-oscuro));
@@ -272,4 +270,3 @@
         margin-top: 28px;
     }
 }
-

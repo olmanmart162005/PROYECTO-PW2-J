@@ -1,0 +1,71 @@
+<section class="form-hero">
+    <h1>Solicitar información de inscripción</h1>
+    <p>
+        Completa el formulario y te escribiremos con los detalles de horarios,
+        niveles, precios y requisitos.
+    </p>
+</section>
+
+<section class="formulario-container">
+    <form class="formulario" id="form-info">
+
+        <div class="campo">
+            <label>Nombre completo</label>
+            <input type="text" name="nombre" required placeholder="Escribe tu nombre completo">
+        </div>
+
+        <div class="campo">
+            <label>Correo electrónico</label>
+            <input type="email" name="correo" required placeholder="correo@ejemplo.com">
+        </div>
+
+        <div class="campo">
+            <label>Teléfono</label>
+            <input type="tel" name="telefono" required placeholder="Ejemplo: 9999-9999">
+        </div>
+
+        <div class="campo">
+            <label>Curso de interés</label>
+            <select name="curso" required>
+                <option value="">Selecciona una opción</option>
+                <option value="ninos">Francés para niños</option>
+                <option value="adolescentes">Francés para adolescentes</option>
+                <option value="adultos_regular">Adultos regular</option>
+                <option value="adultos_intensivo">Adultos intensivo</option>
+                <option value="semiprivado">Semiprivado</option>
+            </select>
+        </div>
+
+        <div class="campo">
+            <label>Modalidad preferida</label>
+            <select name="modalidad">
+                <option value="">Selecciona una opción</option>
+                <option value="presencial">Presencial</option>
+                <option value="en_linea">En línea</option>
+                <option value="mixta">Mixta</option>
+                <option value="indiferente">Indiferente</option>
+            </select>
+        </div>
+
+        <div class="campo">
+            <label>Mensaje o consulta</label>
+            <textarea name="mensaje" rows="5"></textarea>
+        </div>
+
+        <button type="submit" class="btn-enviar">Enviar solicitud</button>
+
+    </form>
+</section>
+
+<div class="success-overlay" id="success-overlay">
+    <div class="success-modal">
+        <div class="success-icon">
+            <span>✓</span>
+        </div>
+        <h2>Solicitud enviada</h2>
+        <p>Su solicitud ha sido enviada. Pronto nos contactaremos con usted.</p>
+        <button type="button" class="btn-cerrar-success" id="btn-cerrar-success">
+            Cerrar
+        </button>
+    </div>
+</div>
